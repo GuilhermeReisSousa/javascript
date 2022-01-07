@@ -5,8 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhando com Strings</title>
+    <style>
+        body{
+            font: bold 35px Arial; 
+            background-color: #eee;
+        }
+    </style>
 </head>
 <body>
     
+    <script>
+        var nome = prompt('Qual é seu Nome: ')
+        document.write(`Olá, ${nome} ! Seu Nome tem ${nome.length} letras,`)
+        document.write(` Seu nome em maiúsculo é ${nome.toUpperCase()}, `)
+        document.write(` Seu nome em minúsculo é ${nome.toLowerCase()}. `)
+    </script>
 </body>
 </html>
