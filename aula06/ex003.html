@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interagindo na tela</title>
+    <title>Variaveis e tratamento de dados</title>
     <style>
         body{
             font: bold 30px Arial, Helvetica, sans-serif;
@@ -19,9 +19,14 @@
 <body>
     <h1>Olá, Mundo</h1>
     <p>Já me livrei da maldição </p>
-    <script>
-        var nome = prompt('Qual seu Nome: ')
-        alert('É um grande pra zer te conhecer,' + nome +  '!') // Concatenação
+    <script> 
+        //prompt('Retorna String, não importa se vc digitol número')
+        var  n1 = Number(prompt('Digite um número: ')) // String 
+        var n2 = Number(prompt('Digite outro numero: ')) // String 
+        var s = n1 + n2 
+        alert(`A soma entre ${n1} e ${n2} e igual a: ${s}`) // Concatenação
+        // number + number  para Adição
+        // string + string para Concatenação
     </script>
 </body>
 </html>
