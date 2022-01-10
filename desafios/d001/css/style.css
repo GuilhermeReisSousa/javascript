@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body {
+    font: normal 25px Arial,Helvetica,sans-serif;
+}
+
+input {
+    padding: 40px;
+    text-decoration: none;
+    font-style: normal 40px Arial;
+}
+
+input:hover {
+    background-color: rgba(146, 146, 146, 0.459);
+}
+#btn1, #btn2, #btn3 {
+    font-size: 40px
+}
