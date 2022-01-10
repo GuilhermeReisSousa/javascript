@@ -5,8 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Boas-Vindas!</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Boas-Vindas</h1>
+    <h1>Boas-Vindas</h1> </h1>
+    <input type="button" value="Inicie o desafio" onclick="challenge()" id="challenge">
+    <script>
+        function challenge() {
+            var name = prompt('Qual seu nome?')
+            var idade = prompt('Qual a sua idade?')
+            var res = alert(`Acabei de conhecer ${name}, que tem ${idade} anos de idade!`)
+        }
+    </script>
 </body>
 </html>
