@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes e Depois</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Antes e depois</h1>
+    <input type="button" value="Antecessor e Sucessor" onclick="function1()">
+    <script>
+        function function1() {
+            var number1 = prompt('Digite um número inteiro, qualquer')
+            var n1 = number1 - 1
+            var convert = parseInt(number1) + 1
+            var res = alert(`Antes de ${number1}, temos o número ${n1}. \n Depois de ${number1}, temos o número ${convert}.`)
+        }
+    </script>
+</body>
+</html>
