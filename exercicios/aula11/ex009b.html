@@ -5,15 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nacionalidade</title>
+    <style>
+        body {
+            font: normal 20pt Arial, Helvetica, sans-serif;
+        }
+        input {
+            padding: 25px;
+        }
+        p {
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 67vh;
+        }
+    </style>
 </head>
 <body>
     <h1>Verificar Nacionalidade</h1>
+    <input type="button" value="Iniciar teste" onclick="function1()">
+    <p>Para melhor experiencia escrever o nome completo e com a primeira letra maiúsculo</p>
     <script>
-        var nacio = prompt('Qual a sua pais: ')
-        if (nacio == brasil) {
-            alert('Você é <strong>BRASILEIRO!</strong>')
-        } else {
-            alert('Você é <strong>estrangeiro</strong>')
+        function function1() {
+            var pais = prompt('Qual seu pais: ')
+            if (pais === 'Brasil') {
+                alert('Você é BRASILEIRO!')
+            } else {
+                alert('Você é estrangeiro')
+            }
         }
     </script>
 </body>
