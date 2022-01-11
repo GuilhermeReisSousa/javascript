@@ -9,4 +9,4 @@ if ( hora >= 7 && hora < 12) {
     console.log('Boa Noite!')
 } else if (hora >= 00 && hora <= 6 ) {
     console.log('Boa Madrugada!')
-} 17;35
+}
