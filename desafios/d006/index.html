@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperaturas</title>
+    <style>
+        body {
+            font: normal 20pt Arial, Helvetica, sans-serif;
+        }
+        input {
+            padding: 20px;
+        }
+        div {
+            margin: 30px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conversor de Temperaturas</h1>
+    <p>Para melhor experiencia usar ' <strong>.</strong> '</p>
+    <input type="button" value="Conveter" onclick="fnc1()">
+    <div id="res"></div>
+    <div id="kelvin"></div>
+    <div id="fahrenheit"></div>
+    <script>
+        function fnc1() {
+            var num1 = Number(prompt('Digite uma temperatura em ºC (Celsius)'))
+            document.getElementById('res').innerHTML = (`<p><strong>A temperatura de ${num1}ºC, corrensponde a...</strong></p>`)
+
+            var kelvin = (num1 + 273.15).toFixed(2)
+            document.getElementById('kelvin').innerHTML = (`<p>${kelvin}<strong> ºK</strong> (Kelvin)</p>`)
+
+            var fahrenheit = ((num1 * 9 / 5) + 32).toFixed(2)
+            document.getElementById('fahrenheit').innerHTML = (`<p>${fahrenheit}<strong> ºF</strong> (Fahrenheit)</p>`)
+        }
+    </script>
+</body>
+</html>
