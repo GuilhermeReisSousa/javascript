@@ -11,6 +11,10 @@ header {
     color: white;
 }
 
+header h1 {
+    text-shadow: 1px 1px 1px black;
+}
+
 section {
     background-color: white;
     border-radius: 10px;
@@ -20,7 +24,17 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
 }
 
+div {
+    text-align: center;
+    padding: 10px
+}
+
 footer {
+    background-color: rgba(61, 60, 60, 0.5);
+    text-shadow: 1px 1px 1px black;
     color: white;
     font-style: italic;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
 }
