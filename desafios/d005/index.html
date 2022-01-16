@@ -12,10 +12,50 @@
         input {
             padding: 20px;
         }
+        div {
+            margin: 30px 10px;
+
+        }
     </style>
 </head>
 <body>
+    <h1>Conversor de Medidas </h1>
+    <!-- <p>Para melhor  experiencia usar ' , ' </p> -->
+
+    <input type="button" value="Converter" onclick="function1()">
+    <div id="medida1"></div>
+    <div id="km"></div>
+    <div id="hm"></div>
+    <div id="dam"></div>
+    <div id="dm"></div>
+    <div id="cm"></div>
+    <div id="mm"></div>
     <script>
+        function function1() {
+
+        var num1 = Number(prompt('Digite uma distancia em metros (m)'))
+
+        document.getElementById('medida1').innerHTML = `<strong>A distancia de ${num1} metros, Corrensponde a...</strong>`
+        
+        var km = (num1 / 1000).toFixed(3) //km 
+        document.getElementById('km').innerHTML = `${km} quilômetros (Km)`
+
+        var hm = (num1 / 100).toFixed(3) //hm
+        document.getElementById('hm').innerHTML = `${hm} hectômetros (Hm)`
+
+        var dam = (num1 / 10).toFixed(3) //dam
+        document.getElementById('dam').innerHTML = `${dam} decâmetros (Dam)`
+
+        var dm = (num1 * 10) //dm
+        document.getElementById('dm').innerHTML = `${dm} decímetros (dm)`
+
+        var cm = (num1 * 100) //cm
+        document.getElementById('cm').innerHTML = `${cm} centímetros (cm)`
+
+        var mm = (num1 * 1000) //mm
+        document.getElementById('mm').innerHTML = `${mm} milímetros (mm)`
+
+    }
     </script>
 </body>
 </html>
