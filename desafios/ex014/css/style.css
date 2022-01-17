@@ -28,13 +28,3 @@ div {
     text-align: center;
     padding: 10px
 }
-
-footer {
-    background-color: rgba(61, 60, 60, 0.5);
-    text-shadow: 1px 1px 1px black;
-    color: white;
-    font-style: italic;
-    position: absolute;
-    bottom: 0;
-    width: 98%;
-}

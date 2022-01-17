@@ -39,7 +39,7 @@ function verificar() {
             img.setAttribute('src', 'img/adulto-f.jpg')
         }else {
             // idoso
-            img.setAttribute('src', 'img/adulto-f.jpg')
+            img.setAttribute('src', 'img/velha-f.jpg')
         }
        }
        res.style.textAlign = 'center'
