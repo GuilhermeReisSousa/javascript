@@ -3,6 +3,7 @@
 body {
     background-color: rgb(70, 142, 236);
     font: normal 15pt Arial,Helvetica,sans-serif;
+    text-align: center;
 }
 
 header h1 {
