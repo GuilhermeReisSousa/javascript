@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+body {
+    font: normal 18pt Arial,Helvetica,sans-serif;
+}
+input {
+    padding: 20px;
+    background-color: rgba(233, 229, 229, 0.76);
+}
