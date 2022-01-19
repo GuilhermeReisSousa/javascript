@@ -8,6 +8,6 @@ function fnc1(){
     var res = document.querySelector("#res")
     res.innerHTML = `<p>Se você tem R$${real} na sua carteira, você pode conseguir ${conver} dolares americanos</p>`
     if(real == 1 ){
-        res.innerHTML = `<p>Se você tem R$${real} na sua carteira, você pode conseguir R$0 dolares americanos</p>`
+        res.innerHTML = `<p>Se você tem R$${real} na sua carteira, você pode conseguir R${conver} dolares americanos</p>`
     }
 }
