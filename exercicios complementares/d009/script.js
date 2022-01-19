@@ -5,7 +5,7 @@ function fnc1(){
     var sala = Number(prompt(`Qual é o salário de ${nome}`)).toFixed(2)
     var porcen = Number(prompt(`O salário de ${nome} vai ser reajustado em qual procentagem?`))
     var conta = ((sala * porcen) / 100).toFixed(2)
-    var res = (conta + 1)
+    var res = (sala * (1 + porcen / 100)).toFixed(2)
 
     var titulo = document.querySelector('div#titulo').innerHTML = `<h2>${nome} recebeu um aumento salárial</h2>`
 
