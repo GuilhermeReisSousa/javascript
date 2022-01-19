@@ -1,9 +1,4 @@
 // salario atual * reajuste / 100 = funciona
-// var titulo = document.querySelector('div#titulo').innerHTML = `<h2>${nome} recebeu um aumento salárial</h2>`
-// var atual = document.querySelector('div#atual').innerHTML = `<p>O salário atual era R$${sala}</p>`
-// var aumento = document.querySelector('div#aumento').innerHTML = `<p>Com um aumento de ${porcen}%, o salário vai aumentar R$${conta} no próximo mês.</p>`
-// var res = document.querySelector('div#res').innerHTML = `<p>E a partir daí, ${nome} vai passar a ganhar ${res}</p>`
-
 
 function fnc1(){
     var nome = prompt('Qual é o nome do funcionário?')
@@ -19,4 +14,15 @@ function fnc1(){
     var aumento = document.querySelector('div#aumento').innerHTML = `<p>Com um aumento de ${porcen}%, o salário vai aumentar R$${conta} no próximo mês.</p>`
     
     var res = document.querySelector('div#res').innerHTML = `<p>E a partir daí, ${nome} vai passar a ganhar ${res}</p>`
+    //mostrar o resultado certo 
+
+    /*
+    titulo.innerHTML = `<h2>${nome} recebeu um aumento salárial</h2>`
+
+    atual.innerHTML = `<p>O salário atual era R$${sala}</p>`
+
+    aumento.innerHTML = `<p>Com um aumento de ${porcen}%, o salário vai aumentar R$${conta} no próximo mês.</p>`
+
+    res.innerHTML = `<p>E a partir daí, ${nome} vai passar a ganhar ${res}</p>` 
+ */
 }
