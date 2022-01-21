@@ -5,25 +5,12 @@ function contar(){
     var contagem = document.getElementById('contagem')
 
     if(inicio.value == 0 || fim.value == 0 || passo.value == 0){
-        alert('[ERRO] Confira os dados e tente novamente')
-        contagem.innerHTML = `Impossível contar`
+        alert('[ERRO] Confira os dados.')
     }else{
-        contagem.innerHTML = 'Contando: <br>'
-        var i = Number(inicio.value)
-        var f = Number(fim.value)
-        var p = Number (passo.value)
-        if( i < f){
-            //CRESCENTE
-            for(var c = i; c <= f; c += p){
-                contagem.innerHTML += `${c} \u{1F449}`
-            }  
-        }else{
-            //REGRESSIVA
-            for(var c = i; c >= f; c -= p){
-                contagem.innerHTML += `\u{1F449}`
-            }
-        }
-        contagem.innerHTML += `\u{1F3C1}`
+        contagem.innerHTML ('Contando')
+        var i = Number(inicio)
+        var f = Number(fim)
+        var p = Number(passo)
+        for
     }
-
 }

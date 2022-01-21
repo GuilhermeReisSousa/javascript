@@ -8,10 +8,12 @@ function contar(){
         alert('[ERRO] Confira os dados e tente novamente')
         contagem.innerHTML = `Impossível contar`
     }else{
-        contagem.innerHTML = 'Contando: <br>'
+        contagem.innerHTML = 'Contando: '
         var i = Number(inicio.value)
         var f = Number(fim.value)
         var p = Number (passo.value)
+
+    
         if( i < f){
             //CRESCENTE
             for(var c = i; c <= f; c += p){
