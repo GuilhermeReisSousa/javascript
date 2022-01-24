@@ -1,9 +1,12 @@
-var num = [5, 8, 2, 9, 3] 
+var num = [5, 8, 2, 9, 3]
 num.sort()
+num.push(1)
 console.log(num)
-var pos = num.indexOf(12)
-if (pos == -1){
+if(pos == 0){
     console.log('Valor não encontrado')
 }else{
-    console.log(`O valor 8 está na posição ${pos}`)    
+    var pos = num.indexOf(2)
+    console.log(`O valor 2 está na posição ${pos}`)
+    var pos = num.indexOf(9)
+    console.log(`O valor 9 está na posição ${pos}`) 
 }
