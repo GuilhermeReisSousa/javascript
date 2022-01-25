@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(41, 163, 245);
+    font: normal 15pt Arial,Helvetica,sans-serif;
+}
+header{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+    text-align: center;
+}
+section{
+    background-color: white;
+    margin: auto;
+    width: 480px;
+    padding: 1px 10px 20px 10px;
+    border-radius: 10px;
+}
+select#lista{
+    width: 150px;
+}
+footer{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
+    text-align: center;
+}
